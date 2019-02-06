@@ -1,0 +1,63 @@
+
+#map{
+    width: 100%;
+    height: 60%;
+    margin: 0;
+}
+
+body{
+    background-image: url(Instagram-Reaches-500Million-Users-la.jpg);
+}
+
+#Wrapper{
+    width:1300px;
+    height: 40%;
+    margin: 30px auto 0;
+}
+
+#Wrapper h1{
+    font-weight:300;
+    font-family: "Century Gothic", serif;
+    text-align:center;
+    color:#FFF;
+    text-shadow:0 2px #000;
+    margin-bottom:30px;
+}
+
+img{
+    width:212px;
+    height:130px;
+}
+
+#Images ul li{
+
+    float:left;
+    width:212px;
+    height:130px;
+    background: #499bea; /* Old browsers */
+    background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #499bea 0%,#207ce5 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #499bea 0%,#207ce5 100%); /* W3C */
+    list-style:none;
+    margin:0 0 40px 40px;
+    opacity:0.8;
+    box-shadow:#000 0 0 5px 0;
+    -webkit-animation: scale 3s ease-in-out infinite alternate;
+}
+
+#Images ul li:hover{
+    opacity:1.0;
+}
+
+@-webkit-keyframes scale {
+    0% {
+
+    }
+
+    100% {
+        -webkit-transform: scale(1.2);
+    }
+}
